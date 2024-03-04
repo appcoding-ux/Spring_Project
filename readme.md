@@ -141,58 +141,122 @@
 * **메인 화면**
   * `카테고리` 메뉴를 사용해 카테고리 별로 상품을 확인할 수 있습니다.
     
-    ![main](https://github.com/appcoding-ux/Project/assets/112378228/83f48797-396e-4a97-8784-dc7efbb12b30)
+    ![main](https://github.com/appcoding-ux/Spring_Project/assets/112378228/32083e30-0b92-4b73-8e52-4aa69a2e27be)
 * **회원가입 및 로그인**
   * 회원가입시 프론트+서버 검증으로 `잘못 입력된 부분과 그 값`을 다시 보여줍니다.
   
   * `다음 우편주소API`를 이용해 배송을 위한 정확한 주소를 가져올 수 있습니다.
   
-    ![join login](https://github.com/appcoding-ux/Project/assets/112378228/38fc4ba0-e05d-4187-8c03-ea85cfe8128f)
+    ![join login](https://github.com/appcoding-ux/Spring_Project/assets/112378228/ebb60ca0-9ddf-4196-a1af-54c55a9c7165)
 
 * **회원 복구 및 비밀번호 변경**
   * `이메일 인증`을 통해 비밀번호를 변경할 수 있고 만약 탈퇴한 회원은 다시 사이트를 이용할 수 있습니다.
  
-        
-* **상품 상세 조회 및 좋아요**
+      
+* **상품 상세 조회 및 위시리스트 추가**
   * 상품 목록에서 상품의 사진을 클릭하면 `상품 상세 정보` 를 확인할 수 있습니다.
-  * `상품 상세` 페이지에서 좋아요(추천)을 할 수 있습니다.
-  
+ 
+    ![iteminfo](https://github.com/appcoding-ux/Spring_Project/assets/112378228/4fa7734d-728c-4186-95b1-682dcfa87cd8)
+
+  * `상품 사이즈`와 `수량`을 선택하여 `예시 가격`을 보여줍니다.
+
+    ![iteminfo_itemStock](https://github.com/appcoding-ux/Spring_Project/assets/112378228/528fead8-2c5a-4955-8843-562880a991ca)
+
+  * `상품 상세` 페이지에서 자신의 `위시리스트`에 추가할 수 있습니다.
+
+    ![iteminfo_wishList](https://github.com/appcoding-ux/Spring_Project/assets/112378228/84c1df81-5dcd-4c8a-92ae-a2b38fe46d5e)
+
+  * `상품 상세 페이지`에서 해당 상품에 대한 `문의`를 등록할 수 있습니다.
+ 
+    ![iteminfo_itemQnA](https://github.com/appcoding-ux/Spring_Project/assets/112378228/555ce8fc-1390-4177-a91c-2cd27c112b1a)
+
+* **상품검색**
+  * 기본적인 검색으로 `메인페이지`에서 `상품이름`으로 검색이 가능합니다.
+
+    ![검색 조회](https://github.com/appcoding-ux/Spring_Project/assets/112378228/2d0d44ea-102e-44b9-9f5c-7d049f0f79c3)
+
+  * `색상`과 `상품이름`으로 이중으로 검색이 가능합니다. (색상은 선택)
+    
+    ![색상 가격순조회](https://github.com/appcoding-ux/Spring_Project/assets/112378228/8f660dcb-9868-43b7-a17c-64117b700c10)
+
+  * 조회된 결과를 토대로 `가격순으로 조회`를 할 수 있습니다. (높은 가격, 낮은 가격, 최신순)
+
+    ![가격순조회](https://github.com/appcoding-ux/Spring_Project/assets/112378228/2c81eda6-08f7-458f-b2f0-9f22444510e3)
 * **리뷰(한줄평) 작성**
   * `상품 상세` 페이지에서 리뷰를 등록할 수 있습니다.
+ 
+    ![iteminfo_itemReview_buy](https://github.com/appcoding-ux/Spring_Project/assets/112378228/f36d8a73-ebdd-4fc2-9156-cdf2a93ca100)
+
   * `구매고객` 상품을 구매한 고객만 리뷰를 등록할 수 있습니다.
   
+    ![iteminfo_itemReview_nonebuy](https://github.com/appcoding-ux/Spring_Project/assets/112378228/b39c5b8f-ebc2-4702-aad6-9b9e74ece68f)
+
 * **장바구니**
-  * `상품 상세보기`에서 `장바구니 상품 추가`가 가능합니다.
-  * `장바구니` 메뉴에서 추가한 상품의 확인 및 수량변경이 가능합니다. 장바구니의 `결제하기` 를 누르면 결제페이지로 이동합니다.
+  * `상품 상세 페이지`에서 `장바구니 상품 추가`가 가능합니다.
+ 
+  * `상품 상세 페이지`에서 해당 상품만 `바로구매`가 가능합니다.
+
+    ![item -  바로주문작성](https://github.com/appcoding-ux/Spring_Project/assets/112378228/e6155015-ddda-487a-a851-14aaba48530f)
+
+  * `상품삭제` 버튼으로 `선택상품삭제`와 `전체상품삭제`가 가능합니다.
+    * **선택상품삭제**
+      * ![Cart - 선택삭제](https://github.com/appcoding-ux/Spring_Project/assets/112378228/ed972507-0a34-4c96-92bc-3eaa949e6d42)
+        
+    * **전체상품삭제**
+      * 나중에 추가 예정(아직 영상이 없음)
   
-  
+  * `장바구니` 메뉴에서 추가한 상품확인 및 수량변경이 가능합니다. 장바구니의 `주문하기` 를 누르면 주문페이지로 이동합니다.
+
+    ![Cart - 수량조정](https://github.com/appcoding-ux/Spring_Project/assets/112378228/36bac3f5-de0a-46ce-9a35-cc488826da1e)
 * **주문하기**
-  * `결제하기` 를 누르면 IamportAPI와 연동된 kg이니시스 결제페이지로 이동합니다.
-  * 결제가 완료되면 `결제 내역` 메뉴에서 결제 정보를 확인할 수 있습니다.
+  * `배송주소`가 변경이 가능하고 `주소`를 저장하면 `배송지이름`과 같이 저장됩니다.
+
+    ![check out - 주소저장 배송메세지](https://github.com/appcoding-ux/Spring_Project/assets/112378228/09b311cd-fe43-44a4-81e1-5b65aaedc6fd)
     
+  * `배송메세지`를 입력할 수 있습니다.
+    
+    ![check out - 배송메세지](https://github.com/appcoding-ux/Spring_Project/assets/112378228/d8790f82-c2ca-4fff-befa-7155f211cdbb)
+    
+  * 결제페이지로 가기 전에 `쿠폰`과 `적립금`을 사용할 수 있습니다
+    * **쿠폰 사용**
+      * ![check out - 쿠폰사용](https://github.com/appcoding-ux/Spring_Project/assets/112378228/3d6825b1-03d5-4c88-92eb-7bbd947523a4)
+
+    * **적립금 사용**
+      * ![check out - 적립금사용](https://github.com/appcoding-ux/Spring_Project/assets/112378228/26987cc8-7d73-48de-ba8f-fb9befb69894)
+* **결제하기**
+  * `결제하기` 를 누르면 `IamportAPI`와 연동된 `kg이니시스 결제페이지`로 이동합니다.
+    일단 보류...(영상에서는 결제버튼을 클릭하고 카카오페이로 결제를 눌렀는데 QR코드가 나오지 않고 결제를 완료했을 때 그냥 넘어감ㅋㅋ)
+    
+  *  `kg이니시스 결제페이지`를 닫으면 결제가 `취소`됩니다.
+
+    ![check out - 주문취소](https://github.com/appcoding-ux/Spring_Project/assets/112378228/242992cc-baa3-4a07-a46c-183acf8109af)
+
+  * 결제가 완료되면 `결제 내역` 메뉴에서 결제 정보를 확인할 수 있습니다.
+
+    ![check out - 결제완료후](https://github.com/appcoding-ux/Spring_Project/assets/112378228/eaedc050-6217-40f7-ac9d-f7a1a78a1aa3)
 * **관리자 페이지**
 
   * `제품관리` 메뉴에서 상품을 등록하거나 재고 및 이미지등을, 수정, 삭제 할 수 있습니다.
 
-  ![admin_item](https://github.com/appcoding-ux/Project/assets/112378228/c03e261c-fed3-4dde-99e6-ebe9f6773b26)
+  ![admin_item](https://github.com/appcoding-ux/Spring_Project/assets/112378228/f1c84a61-005c-48cc-805b-375908ce99ef)
   * `고객관리` 메뉴에서 비정상적인 고객을 비활성화 처리할 수 있습니다.
   
-  ![admin_member](https://github.com/appcoding-ux/Project/assets/112378228/8f376311-5be2-4959-806c-61e1ec8b99fb)
+  ![admin_member](https://github.com/appcoding-ux/Spring_Project/assets/112378228/70474bcb-1b92-48af-a771-f9bf02658c4a)
   * `공지사항` 메뉴에서 공지사항 등록, 수정, 삭제 할 수 있습니다.
 
-  ![admin_notice](https://github.com/appcoding-ux/Project/assets/112378228/10c8e930-d117-4065-acbc-742d15d93788)
+  ![admin_notice](https://github.com/appcoding-ux/Spring_Project/assets/112378228/845fe822-dbd4-4ba7-9ec4-9d5f36551829)
   * `통계` 메뉴에서 나이대를 비교해 도충한 통계를 확인할 수 있습니다.
     
-  ![admin_statistics](https://github.com/appcoding-ux/Project/assets/112378228/a021a180-36fe-487a-95d6-e65118019db9)
+  ![admin_statistics](https://github.com/appcoding-ux/Spring_Project/assets/112378228/e4475a1c-19a1-4443-ae4c-91a74ed46d35)
   * `문의답변` 메뉴에서 현재 답변하지 않은 문의들을 답변할 수 있습니다.
 
-  ![admin_enswer](https://github.com/appcoding-ux/Project/assets/112378228/62fd7344-4834-4d67-a8f4-d904d43eb007)
+  ![admin_enswer](https://github.com/appcoding-ux/Spring_Project/assets/112378228/1985c634-83f2-4cf9-b240-ccc548139873)
 * **Q&A**
   * `Q&A` 메뉴에서 회원은 문의를 등록힐 수 있습니다.
   * 만약 더 궁금한 점이 있을 때 `재문의`를 할 수 있습니다. (단, 관리자가 답변을 했을 경우에만 가능합니다.)
 
-  ![q a_1](https://github.com/appcoding-ux/Project/assets/112378228/63f60bef-58dc-4fa6-aeb1-d1a0f916c388)
-  ![q a_2](https://github.com/appcoding-ux/Project/assets/112378228/2baf9734-8162-4032-b167-394fb5c60cf0)
+  ![q a_1](https://github.com/appcoding-ux/Spring_Project/assets/112378228/a7da204c-2b9f-4cae-829b-6f215b95a336)
+  ![q a_2](https://github.com/appcoding-ux/Spring_Project/assets/112378228/908ab84d-223a-4be3-bb78-ca055c0565fb)
 </details>
 
 
