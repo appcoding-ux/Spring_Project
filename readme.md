@@ -154,7 +154,7 @@
  
       
 * **상품 상세 조회 및 위시리스트 추가**
-  * 상품 목록에서 상품의 사진을 클릭하면 `상품 상세 정보` 를 확인할 수 있습니다.
+  * 상품 목록에서 상품의 사진을 클릭하면 `상품 상세 정보`를 확인할 수 있습니다.
  
     ![iteminfo](https://github.com/appcoding-ux/Spring_Project/assets/112378228/4fa7734d-728c-4186-95b1-682dcfa87cd8)
 
@@ -193,6 +193,7 @@
 
 * **장바구니**
   * `상품 상세 페이지`에서 `장바구니 상품 추가`가 가능합니다.
+    ![The shard - 장바구니상품추가](https://github.com/appcoding-ux/Spring_Project/assets/112378228/8d7baeec-e08d-4a51-86a2-b52a81231b10)
  
   * `상품 상세 페이지`에서 해당 상품만 `바로구매`가 가능합니다.
 
@@ -205,11 +206,11 @@
     * **전체상품삭제**
       * 나중에 추가 예정(아직 영상이 없음)
   
-  * `장바구니` 메뉴에서 추가한 상품확인 및 수량변경이 가능합니다. 장바구니의 `주문하기` 를 누르면 주문페이지로 이동합니다.
+  * `장바구니` 메뉴에서 추가한 `상품확인` 및 `수량변경`이 가능합니다. 장바구니의 `주문하기` 를 누르면 주문페이지로 이동합니다.
 
     ![Cart - 수량조정](https://github.com/appcoding-ux/Spring_Project/assets/112378228/36bac3f5-de0a-46ce-9a35-cc488826da1e)
 * **주문하기**
-  * `배송주소`가 변경이 가능하고 `주소`를 저장하면 `배송지이름`과 같이 저장됩니다.
+  * `배송주소` 변경이 가능하고 `주소`를 저장하면 `배송지이름`과 같이 저장됩니다.
 
     ![check out - 주소저장 배송메세지](https://github.com/appcoding-ux/Spring_Project/assets/112378228/09b311cd-fe43-44a4-81e1-5b65aaedc6fd)
     
@@ -225,14 +226,12 @@
       * ![check out - 적립금사용](https://github.com/appcoding-ux/Spring_Project/assets/112378228/26987cc8-7d73-48de-ba8f-fb9befb69894)
 * **결제하기**
   * `결제하기` 를 누르면 `IamportAPI`와 연동된 `kg이니시스 결제페이지`로 이동합니다.
-    일단 보류...(영상에서는 결제버튼을 클릭하고 카카오페이로 결제를 눌렀는데 QR코드가 나오지 않고 결제를 완료했을 때 그냥 넘어감ㅋㅋ)
+    ![check out - 결제완료](https://github.com/appcoding-ux/Spring_Project/assets/112378228/56e8d4d5-8518-4886-97b3-4158b437da3a)
     
   *  `kg이니시스 결제페이지`를 닫으면 결제가 `취소`됩니다.
-
     ![check out - 주문취소](https://github.com/appcoding-ux/Spring_Project/assets/112378228/242992cc-baa3-4a07-a46c-183acf8109af)
 
   * 결제가 완료되면 `결제 내역` 메뉴에서 결제 정보를 확인할 수 있습니다.
-
     ![check out - 결제완료후](https://github.com/appcoding-ux/Spring_Project/assets/112378228/eaedc050-6217-40f7-ac9d-f7a1a78a1aa3)
 * **관리자 페이지**
 
@@ -252,7 +251,7 @@
 
   ![admin_enswer](https://github.com/appcoding-ux/Spring_Project/assets/112378228/1985c634-83f2-4cf9-b240-ccc548139873)
 * **Q&A**
-  * `Q&A` 메뉴에서 회원은 문의를 등록힐 수 있습니다.
+  * `Q&A` 메뉴에서 `회원`은 문의를 등록힐 수 있습니다.
   * 만약 더 궁금한 점이 있을 때 `재문의`를 할 수 있습니다. (단, 관리자가 답변을 했을 경우에만 가능합니다.)
 
   ![q a_1](https://github.com/appcoding-ux/Spring_Project/assets/112378228/a7da204c-2b9f-4cae-829b-6f215b95a336)
