@@ -1,4 +1,4 @@
-![image](https://github.com/appcoding-ux/Spring_Project/assets/112378228/69487002-e0b3-4d8b-99e8-baca41213fdc)![image](https://github.com/appcoding-ux/Spring_Project/assets/112378228/b9c20301-8254-4aff-9b2b-cb97b9f213b4)<h1 align='center'> <img src='https://cdn-icons-png.flaticon.com/512/5208/5208370.png' style='width: 300px; height: 200px;'>&nbsp;</h1>
+<h1 align='center'> <img src='https://cdn-icons-png.flaticon.com/512/5208/5208370.png' style='width: 300px; height: 200px;'>&nbsp;</h1>
 <h1  align='center'>👕스프링 의류 쇼핑몰 프로젝트</h1>
 <div align='center'>
   <h3>
