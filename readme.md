@@ -220,10 +220,10 @@
     
   * 결제페이지로 가기 전에 `쿠폰`과 `적립금`을 사용할 수 있습니다
     * **쿠폰 사용**
-      * ![check out - 쿠폰사용](https://github.com/appcoding-ux/Spring_Project/assets/112378228/3d6825b1-03d5-4c88-92eb-7bbd947523a4)
+      ![check out - 쿠폰사용](https://github.com/appcoding-ux/Spring_Project/assets/112378228/3d6825b1-03d5-4c88-92eb-7bbd947523a4)
 
     * **적립금 사용**
-      * ![check out - 적립금사용](https://github.com/appcoding-ux/Spring_Project/assets/112378228/26987cc8-7d73-48de-ba8f-fb9befb69894)
+      ![check out - 적립금사용](https://github.com/appcoding-ux/Spring_Project/assets/112378228/26987cc8-7d73-48de-ba8f-fb9befb69894)
 * **결제하기**
   * `결제하기` 를 누르면 `IamportAPI`와 연동된 `kg이니시스 결제페이지`로 이동합니다.
     ![check out - 결제완료](https://github.com/appcoding-ux/Spring_Project/assets/112378228/56e8d4d5-8518-4886-97b3-4158b437da3a)
