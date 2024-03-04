@@ -179,7 +179,7 @@
     
     ![색상 가격순조회](https://github.com/appcoding-ux/Spring_Project/assets/112378228/8f660dcb-9868-43b7-a17c-64117b700c10)
 
-  * 조회된 결과를 토대로 `가격순으로 조회`를 할 수 있습니다. (높은 가격, 낮은 가격, 최신순)
+  * 조회된 결과를 토대로 `가격순` 또는 `최신순`으로 조회 할 수 있습니다. (높은 가격, 낮은 가격, 최신순)
 
     ![가격순조회](https://github.com/appcoding-ux/Spring_Project/assets/112378228/2c81eda6-08f7-458f-b2f0-9f22444510e3)
 * **리뷰(한줄평) 작성**
