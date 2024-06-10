@@ -135,8 +135,6 @@
  
 ## 🎇 주요기능 실행화면
 
-<details>
-<summary>주요기능 실행화면</summary>
 
 * **메인 화면**
   * `카테고리` 메뉴를 사용해 카테고리 별로 상품을 확인할 수 있습니다.
@@ -256,7 +254,6 @@
 
   ![q a_1](https://github.com/appcoding-ux/Spring_Project/assets/112378228/a7da204c-2b9f-4cae-829b-6f215b95a336)
   ![q a_2](https://github.com/appcoding-ux/Spring_Project/assets/112378228/908ab84d-223a-4be3-bb78-ca055c0565fb)
-</details>
 
 
 ## 🌄 개선사항
